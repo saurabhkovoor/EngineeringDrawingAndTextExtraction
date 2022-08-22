@@ -8,7 +8,7 @@ from openpyxl import Workbook
 from difflib import SequenceMatcher
 
 OCR_config = r'--oem 3 --psm 6' #custom configuration for pytesseract functions
-filelist=os.listdir('Dataset_2021') #directory containing sample engineering drawing images
+filelist=os.listdir('Engineering Drawings') #directory containing sample engineering drawing images
 
 #Words around the drawing that shouldn’t be extracted
 wordsToAvoid = ["SIDE", "FRONT", "TOP", "VIEW"]
